@@ -18,6 +18,10 @@ module.exports = {
       `\`/arc-weapons\` - Guide des armes et modifications\n` +
       `\`/arc-tips\` - Conseils et astuces de survie\n` +
       `\`/arc-survival\` - Guide de survie complet\n\n` +
+      `**⚙️ Commandes Admin** (Administrateurs uniquement)\n` +
+      `\`/admin-set-channel\` - Configure les salons de notifications\n` +
+      `\`/admin-config\` - Affiche la configuration actuelle\n` +
+      `\`/admin-force-check\` - Force la vérification des news\n\n` +
       `💡 *Utilise les options des commandes pour plus de détails !*\n` +
       `*Bot créé pour la communauté Arc Raiders* 🎮`;
     await interaction.reply({ content: helpText, ephemeral: true });

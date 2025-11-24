@@ -104,6 +104,35 @@ Guide de survie complet :
 
 ---
 
+### ⚙️ **COMMANDES ADMIN** (Administrateurs uniquement)
+
+**`/admin-set-channel [type] [salon]`**
+Configure les salons de notifications automatiques :
+• **type notifications** : Salon pour les annonces importantes (patches, events)
+• **type news** : Salon pour toutes les actualités Arc Raiders
+
+Le bot vérifiera automatiquement les news toutes les heures et les postera dans les salons configurés.
+
+**Exemple :**
+• `/admin-set-channel notifications #📢・notifications`
+• `/admin-set-channel news #📰・news`
+
+---
+
+**`/admin-config`**
+Affiche la configuration actuelle du bot :
+• Salons configurés
+• Dernière vérification des news
+• Nombre d'articles envoyés
+
+---
+
+**`/admin-force-check`**
+Force immédiatement la vérification des news Arc Raiders.
+Utile pour tester ou après avoir configuré les salons.
+
+---
+
 ### 💡 **ASTUCES D'UTILISATION**
 
 • La plupart des commandes ont des **options** - utilise-les pour accéder à des infos spécifiques !

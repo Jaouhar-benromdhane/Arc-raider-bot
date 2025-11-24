@@ -44,4 +44,10 @@ if (!token) {
   process.exit(1);
 }
 
+// Démarrer le système de notifications automatiques
+client.once('clientReady', () => {
+  const { startNewsChecker } = require('./utils/newsChecker');
+  startNewsChecker(client);
+});
+
 client.login(token);
